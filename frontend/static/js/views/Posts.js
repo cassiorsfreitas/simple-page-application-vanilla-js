@@ -10,6 +10,9 @@ export default class extends AbstractView {
         return `
             <h1>Posts</h1>
             <p>You are viewing the best post of the world!</p>
+            <ul>
+                <li><a href='/posts/1' data-link>Linkedin Profile</a></li>
+            </ul>
         ` 
         
     }
